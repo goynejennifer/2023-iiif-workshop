@@ -1,0 +1,38 @@
+---
+canvas: "https://d.lib.ncsu.edu/collections/canvas/technician-basketballpreview-1999_0002"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Technician",
+            "purpose": "tagging",
+            "creator": {
+                "id": "goynejennifer",
+                "name": "Jennifer Goyne"
+            },
+            "created": "2023-12-07T18:40:25.431Z",
+            "modified": "2023-12-07T18:40:27.731Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://goynejennifer.github.io/2023-iiif-workshop/manifests/catalog/technician-basketballpreview-1999/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://d.lib.ncsu.edu/collections/canvas/technician-basketballpreview-1999_0002",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2644.406005859375,174.4039306640625,728.558349609375,289.7354431152344"
+        }
+    },
+    "id": "ef5ba942-c0fe-46ee-819c-cacf94409123.json",
+    "motivation": "commenting"
+}
