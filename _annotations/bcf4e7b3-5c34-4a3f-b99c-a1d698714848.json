@@ -1,0 +1,54 @@
+---
+canvas: "https://d.lib.ncsu.edu/collections/canvas/technician-basketballpreview-1999_0003"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "purpose": "geotagging",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16,
+                    48
+                ]
+            },
+            "creator": {
+                "id": "goynejennifer",
+                "name": "Jennifer Goyne"
+            },
+            "created": "2023-12-07T16:26:32.168Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "name",
+            "purpose": "tagging",
+            "creator": {
+                "id": "goynejennifer",
+                "name": "Jennifer Goyne"
+            },
+            "created": "2023-12-07T16:26:40.476Z",
+            "modified": "2023-12-07T16:26:40.753Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://goynejennifer.github.io/2023-iiif-workshop/manifests/catalog/technician-basketballpreview-1999/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://d.lib.ncsu.edu/collections/canvas/technician-basketballpreview-1999_0003",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2086.734375,166.56150817871094,1220.517578125,408.70558166503906"
+        }
+    },
+    "id": "bcf4e7b3-5c34-4a3f-b99c-a1d698714848.json",
+    "motivation": "commenting"
+}
